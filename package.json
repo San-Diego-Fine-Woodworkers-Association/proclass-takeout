@@ -1,0 +1,23 @@
+{
+  "name": "proclass-takeout",
+  "version": "1.0.0",
+  "description": "Export utilities for ProClass into other systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proclass",
+    "export",
+    "utilities",
+    "takeout"
+  ],
+  "author": "Isaac Smith (isaachsmith.dev@gmail.com)",
+  "license": "Unlicense",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "@vercel/node": "^5.5.15",
+    "typescript": "^5.9.3"
+  }
+}
