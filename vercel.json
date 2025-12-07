@@ -3,7 +3,7 @@
 	"buildCommand": "",
 	"functions": {
 		"api/functions/*.ts": {
-			"memory": 3009,
+			"memory": 2048,
 			"maxDuration": 30
 		}
 	}
