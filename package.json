@@ -2,7 +2,7 @@
   "name": "proclass-takeout",
   "version": "1.0.0",
   "description": "Export utilities for ProClass into other systems.",
-  "main": "index.js",
+  "main": "src/functions/membership-export.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
