@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Export utilities for ProClass into other systems.",
   "main": "src/functions/membership-export.ts",
-  "scripts": {
-    "dev": "vercel dev"
-  },
   "keywords": [
     "proclass",
     "export",
@@ -21,7 +18,6 @@
   "devDependencies": {
     "@types/node": "^24.10.1",
     "eslint": "^9.39.1",
-    "typescript": "^5.9.3",
-    "vercel": "^49.1.1"
+    "typescript": "^5.9.3"
   }
 }
