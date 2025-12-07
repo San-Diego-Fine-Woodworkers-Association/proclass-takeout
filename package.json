@@ -4,7 +4,7 @@
   "description": "Export utilities for ProClass into other systems.",
   "main": "src/functions/membership-export.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev"
   },
   "keywords": [
     "proclass",
@@ -16,8 +16,12 @@
   "license": "Unlicense",
   "packageManager": "pnpm@10.24.0",
   "dependencies": {
+    "@vercel/node": "^5.5.15"
+  },
+  "devDependencies": {
     "@types/node": "^24.10.1",
-    "@vercel/node": "^5.5.15",
-    "typescript": "^5.9.3"
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "vercel": "^49.1.1"
   }
 }
